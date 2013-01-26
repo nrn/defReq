@@ -1,0 +1,17 @@
+{ "name": "defReq"
+, "version": "0.0.1"
+, "author": "Nick Niemeir <nick.niemeir@gmail.com>"
+, "main": "defReq.js"
+, "scripts":
+  { "test": "for f in ./t/*.js; do node $f; done"
+  }
+, "dependencies":
+  { "request": "*"
+  }
+, "devDependencies": { "tape": "*" }
+, "engines": { "node": ">0.6" }
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/nrn/defReq.git"
+  }
+}
