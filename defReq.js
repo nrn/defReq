@@ -4,6 +4,7 @@ var request = require('request')
 module.exports = defReq
 
 function defReq (def) {
+  if (typeof def === 'string') def = { uri: def }
   if (typeof def !== 'object') return request
   return function (opts, cb) {
     if (typeof opts === 'function') {
