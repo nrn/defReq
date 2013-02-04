@@ -2,6 +2,10 @@
 
 A simple wrapper around request, to set your own defaults.
 
+```javascript
+var defReq = require('def-req')
+```
+
 ## defReq(opts)
 
 Returns a function that takes options and an optional callback, merges the two
